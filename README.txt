@@ -1,0 +1,4 @@
+用簡易Microsoft.AspNetCore.Identity.Entityframeworkcore v6.0.20來實作Cookies Claim機制
+在_layout.cshtml加入login跟logout按鈕
+設定cookies失效時間機制
+使用AccountController來實作Login跟Logout功能
