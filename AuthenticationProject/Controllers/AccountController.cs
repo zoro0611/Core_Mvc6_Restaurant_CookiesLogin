@@ -26,8 +26,6 @@ namespace AuthenticationProject.Controllers
         {
             if (ModelState.IsValid)
             {
-                //string connStr = "Server=localhost;Database=MyTest;Trusted_Connection=True;MultipleActiveResultSets=true;User Id=sa;Password=leohsu0724;";
-
                 string connStr = _configuration["DbContext:ConnectionString"];
                 var userInfo = new LoginInfo(); 
 
